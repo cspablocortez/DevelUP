@@ -5,7 +5,7 @@ programming languages.
 
 ---
 
-Tue 11/5 - Home page styling, fonts, color selectiono
+## Tue 11/5 - Home page styling, fonts, color selectiono
 
 ```css
 :root {
@@ -18,7 +18,7 @@ Tue 11/5 - Home page styling, fonts, color selectiono
 
 ---
 
-Wed 10/30 - Prototyping within Freeform
+## Wed 10/30 - Prototyping within Freeform
 
 - Language Selection Scrollbar 
 
@@ -31,7 +31,7 @@ Color Palette #1
 
 ---
 
-Tue 10/29 - Selecting a Design Language
+## Tue 10/29 - Selecting a Design Language
 
 - Start app by testing for current programming skills (FR)
 - Using AI for monitoring correctness of an answer (FR)
@@ -52,14 +52,9 @@ Font(s):
 
 - Baloo Tammudu 2
 
+---
 
-
-
-
-
-
-_______________________________________________
-Tue 10/22
+## Tue 10/22
 
 - How they make money
     --no ads
