@@ -5,7 +5,16 @@ programming languages.
 
 ---
 
-Tue 11/5 - Home page styling, fonts, color selection
+Tue 11/5 - Home page styling, fonts, color selectiono
+
+```css
+:root {
+  --accent-color: #8e71a8;
+  --secondary-color: #c8a1e0;
+  --lavender: #e2bfd9;
+  --background: #fff;
+}
+```
 
 ---
 
@@ -15,10 +24,10 @@ Wed 10/30 - Prototyping within Freeform
 
 Color Palette #1
 
-Beige - #F7EFE5
-Lavender - #E2BFD9
-Secondary - #C8A1E0
-Accent (Buttons, Headings) - #674188
+- Beige - #F7EFE5
+- Lavender - #E2BFD9
+- Secondary - #C8A1E0
+- Accent (Buttons, Headings) - #674188
 
 ---
 
@@ -37,10 +46,11 @@ Design Language
 
 Resources
 
-https://colorhunt.co/
+- [Color Hunt](https://colorhunt.co/)
 
 Font(s):
-	- Baloo Tammudu 2
+
+- Baloo Tammudu 2
 
 
 
