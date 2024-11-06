@@ -1,0 +1,85 @@
+# DevelUP+ 
+
+App description: A learning platform similar to Duolingo for 
+programming languages.
+
+---
+
+Tue 11/5 - Home page styling, fonts, color selection
+
+---
+
+Wed 10/30 - Prototyping within Freeform
+
+- Language Selection Scrollbar 
+
+Color Palette #1
+
+Beige - #F7EFE5
+Lavender - #E2BFD9
+Secondary - #C8A1E0
+Accent (Buttons, Headings) - #674188
+
+---
+
+Tue 10/29 - Selecting a Design Language
+
+- Start app by testing for current programming skills (FR)
+- Using AI for monitoring correctness of an answer (FR)
+
+
+Design Language
+
+- Friendly? (Duolingo)
+- Serious? (Uber)
+- Twitter (Neutral)
+- Instagram (Neutral)
+
+Resources
+
+https://colorhunt.co/
+
+Font(s):
+	- Baloo Tammudu 2
+
+
+
+
+
+
+
+_______________________________________________
+Tue 10/22
+
+- How they make money
+    --no ads
+
+- Onboarding = getting a user to understand your app = "hook" in your essay
+
+- Design choices
+
+- A 30 min option 
+
+- Progressive learning that brings back earlier concepts
+
+----
+
+Content Guide
+
+=> Definitions = why we are learning 
+	E.g. teacher assgnmt: write down definitions for words / concept
+
+=> "Road map"
+
+---- FEATURES ----
+
+- Quiz
+
+---- PROTOTYPE ----
+
+- developer level up
+- develUP
+
+
+
+
