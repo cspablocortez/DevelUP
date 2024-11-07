@@ -5,7 +5,7 @@ programming languages.
 
 ---
 
-## Tue 11/5 - Home page styling, fonts, color selectiono
+## Tue 11/5 - Home page styling, fonts, color selection
 
 ```css
 :root {
