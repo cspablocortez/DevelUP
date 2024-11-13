@@ -5,6 +5,13 @@ programming languages.
 
 ---
 
+## Tue 11/12
+
+## Wed 11/6 - HTML / CSS Prototyping
+
+A preliminary layout for the navbar including app logo.
+
+
 ## Tue 11/5 - Home page styling, fonts, color selection
 
 ```css
