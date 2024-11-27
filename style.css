@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 :root {
     --shadow-color: #5f327e;
     --accent-color: #8e71a8;
@@ -6,54 +6,71 @@
     --secondary-color: #c8a1e0;
     --lavender: #e2bfd9;
     --background: #fff;
+    --shadow-black: #2f2f2f;
+    --plus-yellow: #e9b259;
 }
-
 body {
     background-color: var(--background);
 }
 
-.navbar-container {
-    display: flex;
-    justify-content: space-around;
-    margin: 0;
-    padding: 0;
+/*TODO: Implement section.hero with BEM*/
+
+section.hero {
+	display: flex;
+    align-items: center;
+    margin-inline: auto;
+    margin-block: 4rem;
+	flex-direction: column;
 }
 
-.nav-button {
-    color: var(--background);
-    font-family: "Dosis", sans-serif;
-    letter-spacing: 1px;
+section.hero div {
+	text-align: center;
+}
+#hero-img {
+    width: 400px;
+    height: 400px;
+}
+#hero-h1 {
+    font-family: "Mulish", sans-serif;
+    font-size: 32px;
+    color: var(--shadow-black);
+    font-weight: 800;
+}
+.hero-get_started-button, .hero-resume_progess-button {
+    font-family: "Mulish", sans-serif;
+    letter-spacing: 0.75px;
     font-weight: 800;
     font-size: 15px;
-    background-color: var(--accent-color);
-    width: 140px;
+    width: 300px;
     height: 40px;
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 10px;
     border-style: none;
-    box-shadow: 0px 4px var(--shadow-color);
     line-height: 0.45;
 }
-
-.nav-button:hover {
+.hero-get_started-button, .hero-resume_progess-button:hover {
+    cursor: pointer;
+}
+.hero-get_started-button {
+    color: var(--background);
+    background-color: var(--accent-color);
+}
+.hero-get_started-button:hover {
     background-color: var(--hover-color);
 }
-
-#nav-title {
-    color: var(--accent-color);
-    font-family: Arial, Helvetica, sans-serif;
+.hero-resume_progess-button {
+    color: var(--plus-yellow);
+    background-color: var(--background);
+    border: rgb(229 229 229) solid 2px;
 }
-
-#nav-title-span {
-    color: var(--secondary-color);
-}
-
-.nav-logo {
-    display: flex;
-    flex-direction: row;
-}
-
-#nav-logo {
-    height: 45px;
-    width: 45px;
+@media only screen and (min-width: 700px) { 
+	section.hero {
+    margin-top: 11%;
+		max-width: 1000px;
+		flex-direction: row;
+	}
+	
+	section.hero div {
+		width: 50%;
+	}
 }
