@@ -4,8 +4,19 @@ App description: A learning platform similar to Duolingo for
 programming languages.
 
 ---
+## Tue 11/26
+- Codeshare update
+- Refactoring of CSS using BEM methodology
+- Modernize and Reset CSS
 
-## Tue 11/12
+## Tue 11/17
+- Updates to navbar
+- Landing page image
+
+## Tue 11/12 and Wed 11/13 - HTML / CSS Refactoring
+
+- New font MULISH
+- Added a new color (shadow black)
 
 ## Wed 11/6 - HTML / CSS Prototyping
 
