@@ -50,3 +50,8 @@
     border-style: none;
     line-height: 0.45;
 }
+
+.nav__button:hover {
+  background-color: var(--hover-color);
+  cursor: pointer;
+}
