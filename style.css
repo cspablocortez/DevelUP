@@ -1,56 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
-:root {
-    --shadow-color: #5f327e;
-    --accent-color: #8e71a8;
-    --hover-color: #ac8bc9;
-    --secondary-color: #c8a1e0;
-    --lavender: #e2bfd9;
-    --background: #fff;
-    --shadow-black: #2f2f2f;
-    --plus-yellow: #e9b259;
-}
-body {
-    background-color: var(--background);
-}
 
 /*TODO: Implement section.hero with BEM*/
 
-section.hero {
-	display: flex;
-    align-items: center;
-    margin-inline: auto;
-    margin-block: 4rem;
-	flex-direction: column;
-}
 
-section.hero div {
-	text-align: center;
-}
-#hero-img {
-    width: 400px;
-    height: 400px;
-}
-#hero-h1 {
-    font-family: "Mulish", sans-serif;
-    font-size: 32px;
-    color: var(--shadow-black);
-    font-weight: 800;
-}
-.hero-get_started-button, .hero-resume_progess-button {
-    font-family: "Mulish", sans-serif;
-    letter-spacing: 0.75px;
-    font-weight: 800;
-    font-size: 15px;
-    width: 300px;
-    height: 40px;
-    margin-top: 10px;
-    border-radius: 10px;
-    border-style: none;
-    line-height: 0.45;
-}
-.hero-get_started-button, .hero-resume_progess-button:hover {
-    cursor: pointer;
-}
+
+
 .hero-get_started-button {
     color: var(--background);
     background-color: var(--accent-color);

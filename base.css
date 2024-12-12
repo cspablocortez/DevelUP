@@ -1,3 +1,26 @@
+/**
+*   Style Variables
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+:root {
+    --shadow-color: #5f327e;
+    --accent-color: #8e71a8;
+    --hover-color: #ac8bc9;
+    --secondary-color: #c8a1e0;
+    --lavender: #e2bfd9;
+    --background: #fff;
+    --shadow-black: #2f2f2f;
+    --plus-yellow: #e9b259;
+}
+body {
+    background-color: var(--background);
+}
+
+/**
+*   NAV Component
+*/
+
 .nav {
     display: flex;
     justify-content: space-around;
@@ -27,6 +50,7 @@
 .nav__logo__title {
     color: var(--accent-color);
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
 }
 
 .nav__title__span {
@@ -55,3 +79,83 @@
   background-color: var(--hover-color);
   cursor: pointer;
 }
+
+/**
+*   HERO Component
+*/
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-inline: auto;
+  margin-block: 4rem;
+}
+
+.hero div {
+  text-align: center;
+}
+
+.hero__image {
+  width: 400px;
+  height: 400px;
+}
+
+.hero__tagline {
+  font-family: "Mulish", sans-serif;
+  font-size: 2rem;
+  color: var(--shadow-black);
+  font-weight: 800;
+}
+
+.hero__button {
+  font-family: "Mulish", sans-serif;
+  letter-spacing: 0.75px;
+  font-weight: 800;
+  font-size: 15px;
+  width: 300px;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border-style: none;
+  line-height: 0.45;
+}
+
+.hero__button:hover {
+  cursor: pointer;
+}
+
+.hero__button.get-started {
+  color: var(--background);
+  background-color: var(--accent-color);
+}
+
+.hero__button.get-started:hover {
+  background-color: var(--hover-color);
+}
+
+.hero__button.resume-progress {
+  color: var(--plus-yellow);
+  background-color: var(--background);
+  border: solid 2px rgb(229 229 229);
+}
+
+/**
+*   Media Queries
+*/
+
+@media only screen and (min-width: 700px) {
+  .hero {
+    margin-top: 10%;
+    max-width: 1000px;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-inline: auto;
+  }
+  
+  .hero div {
+    width: 50%;
+/*    margin-inline: 1rem;*/
+  }
+}
+
