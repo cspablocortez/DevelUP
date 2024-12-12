@@ -4,6 +4,12 @@ App description: A learning platform similar to Duolingo for
 programming languages.
 
 ---
+
+## Wed 12/11
+
+- Updated profile form
+- Refactor CSS using BEM done for landing page ✅
+
 ## Tue 11/26
 - Codeshare update
 - Refactoring of CSS using BEM methodology
